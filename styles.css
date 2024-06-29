@@ -1,0 +1,285 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 10px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Title Section */
+.title-section {
+    background-color: #1e4873;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+/* Logos Section */
+.logos-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-container {
+    text-align: center;
+    padding: 10px;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.logo-container img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
+/* Dynamic Infoboard */
+.dynamic-infoboard {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* Main Container */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+.left-section,
+.right-section {
+    flex: 1;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* padding: 10px; */
+    /* margin: 10px; */
+    
+}
+
+.content-box {
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Vision Box */
+.vision-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: white;
+    /* margin: 10px 0; */
+    /* flex: 1 1 45%; */
+    height: 300px;
+    /* Fixed height to enable scrolling */
+    overflow: auto;
+    /* Enable scrolling */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.vision-content {
+    overflow: auto;
+    /* Enable scrolling */
+    flex-grow: 1;
+    /* Allow the content to take remaining space */
+}
+
+/* COE Section */
+.COE_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid #ccc; */
+    padding: 20px;
+    border-radius: 10px;
+    height: 250px;
+    overflow: auto;
+}
+
+.COE_section img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    /* margin: 5px; */
+}
+
+/* Photo Gallery */
+.photo-gallery,
+.photos-details-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid #ccc; */
+    /* gap: 10px; */
+    /* padding: 20px; */
+    height: 250px;
+    /* overflow: auto; */
+    
+
+}
+
+.photo-card {
+    text-align: center;
+}
+
+.photo-card img,
+.item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+    /* margin: 5px; */
+}
+
+/* Projects Section */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 1px solid #ccc; */
+    gap: 10px;
+    padding: 10px;
+    height: 200px;
+}
+
+.projects img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+    margin: 5px;
+}
+
+
+/* .logo-container img,
+.photo-card img,
+.item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+} */
+
+
+/* Leaderboard Section */
+.leaderboard-section {
+    height: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.leaderboard-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.leaderboard-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Society Colors */
+.ras {
+    background-color: pink;
+    /* Color for RAS society */
+}
+
+.cis {
+    background-color: green;
+    /* Color for CIS society */
+}
+
+.sps {
+    background-color: yellow;
+    /* Color for SPS society */
+}
+
+.outcomes-section{
+    padding: 10px;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #1e4873;
+    margin-top: 10px;
+    padding: 10px;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
